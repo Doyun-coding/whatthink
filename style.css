@@ -1,0 +1,341 @@
+* {
+    font-style: normal;
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: black;
+}
+h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+h4 {
+    text-align: center;
+    padding-top: 20px;
+}
+h4.dpt {
+    padding-top: 80px;
+}
+.dpt {
+    padding-top: 80px;
+}
+.result_vote:hover {
+    cursor: pointer;
+}
+.result_choice:hover {
+    cursor: default;
+}
+.mainsection {
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.menu ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+.menu ul li a{
+    font-size: 20px;
+    color: crimson;
+    text-decoration: none;
+    padding: 30px;
+}
+.menu ul li a:hover {
+    color: deepskyblue;
+}
+.adv_left {
+    width: 8%;
+    float: left;
+    background-color: #CFCECE;
+    padding: 10px;
+    height: 1050px;
+}
+.adv_right {
+    width: 8%;
+    float: right;
+    background-color: #CFCECE;
+    padding: 10px;
+    height: 1050px;
+}
+.adv_left span {
+    color: #ffffff;
+}
+.adv_right span {
+    color: #ffffff;
+}
+.adv_hori span {
+    color: #ffffff;
+}
+.red {
+    background-color: transparent;
+    border-color: transparent;
+    padding-left: 12px;
+    font-size: 16px;
+    color: #ffffff;
+}
+.blue {
+    background-color: transparent;
+    border-color: transparent;
+    padding-right: 12px;
+    font-size: 16px;
+    color: #ffffff;
+}
+.change_right {
+    border: transparent;
+    background-color: transparent;
+    color: deepskyblue;
+    font-size: 16px;
+    font-weight: 600;
+}
+.change_left {
+    border: transparent;
+    background-color: transparent;
+    color: crimson;
+    font-size: 16px;
+    font-weight: 600;
+}
+.result_choice_red:hover {
+    cursor: default;
+}
+.result_choice_blue:hover {
+    cursor: default;
+}
+.opinion {
+    border: transparent;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+}
+.opinion:hover {
+    color: gray;
+    cursor: pointer;
+}
+.change_right:hover {
+    text-decoration-line: underline;
+    text-decoration-color: deepskyblue;
+    cursor: pointer;
+}
+.change_left:hover {
+    text-decoration-line: underline;
+    text-decoration-color: crimson;
+    cursor: pointer;
+}
+.red:hover {
+    color: crimson;
+    cursor: pointer;
+}
+.blue:hover {
+    color: deepskyblue;
+    cursor: pointer;
+}
+.graph {
+    display: block;
+    height: 50px;
+    background: deepskyblue;
+}
+.ngraph {
+    height: 50px;
+    background: gray;
+    line-height: 50px;
+}
+.graph span.gph {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+    padding-right: 10px;
+    background: crimson;
+    box-sizing: border-box;
+    color: white;
+}
+.ngraph span {
+    height: 50px;
+    line-height: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+}
+.boardnum_reply {
+    padding-top: 10px;
+    padding-left: 11%;
+    padding-right: 11%;
+}
+.reply {
+    height: 500px;
+    border-color: transparent;
+}
+.reply_menu {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    background-color: #9C9393;
+}
+.reply_menu_button {
+    border: transparent;
+    background-color: transparent;
+    font-size: 16px;
+    padding-right: 1%;
+    padding-left: 1%;
+    font-weight: 400;
+    color: #ffffff;
+}
+.reply_menu_button:hover {
+    cursor: pointer;
+}
+.reply_write {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 98%;
+    height: 48%;
+    font-size: 14px;
+    text-overflow: auto;
+}
+.reply_transmit {
+    display: block;
+    padding-right: 16px;
+    float: right;
+    border: transparent;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 14px;
+}
+.reply_transmit:hover {
+    cursor: pointer;
+}
+.reply_modi {
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.reply_del {
+    margin-top: 4px;
+    margin-left: 8px;
+}
+.reply_agree {
+    border: transparent;
+    background-color: transparent;
+    padding-left: 12px;
+    font-size: 12px;
+}
+.reply_agree:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+.reply_not_agree {
+    float: right;
+    padding-right: 12px;
+    border: transparent;
+    background-color: transparent;
+    font-size: 12px;
+}
+.reply_not_agree:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+.page {
+    padding-top: 80px;
+    text-align: center;
+}
+.pagination {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin-top: 20px;
+}
+.pagination li {
+    display: inline;
+    text-align: center;
+}
+.pagination a {
+    float: left;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px 12px;
+    color: #96a0ad;
+    line-height: 1.5;
+}
+.first {
+    margin-right: 15px;
+}
+.last {
+    margin-left: 15px;
+}
+.first:hover, .last:hover, .left:hover, .right:hover {
+    color: crimson;
+}
+.pagination a.active {
+    cursor: default;
+    color: #ffffff;
+}
+.pagination a:active {
+    outline: none;
+}
+.modal .num {
+    margin-left: 3px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 0;
+}
+.modal .num:hover {
+    background-color: #2e9cdf;
+    color: #ffffff;
+}
+.modal .num.active, .modal .num:active {
+    background-color: #2e9cdf;
+    cursor: pointer;
+}
+.arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid blue;
+}
+.adv_hori {
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 80px;
+    background-color: #CFCECE;
+}
+footer {
+    width: 100%;
+    height: 90px;
+    bottom: 0px;
+    border-top: 1px solid #c4c4c4;
+    padding-top: 15px;
+    color: #808080;
+    font-size: 11px;
+}
+footer a {
+    display: inline-block;
+    margin: 0 20px 10px 20px;
+    color: #808080; font-size: 11px;
+}
+  
+footer a:visited {
+    color: #808080;
+}
+
+footer p {
+    margin-top: 0; margin-bottom: 0;   
+}
+  
+footer p span {
+    display: inline-block;
+    margin-left: 20px;
+}
